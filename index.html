@@ -1,1 +1,104 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>Booooorgir</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+    <header>
+        <h1>Välkommen till BooorgirOnline!</h1>
+        <p>De bästa hamburgarna i staden!</p>
+    </header>
+    <main>
+        <section>
+            <h3>Välj din booorgir!</h3>
+            <p>Du kan välja mellan dessa tre alternativ:</p>
+            <div style="display: inline-block">
+            <h4>The Nasty Patty</h4>
+            <img src="https://i.ytimg.com/vi/e03PjaSc7VQ/maxresdefault.jpg" alt="Nasty Patty" title="The Nasty Patty" style="width: 300px">
+            <ul>
+                <li>Vegansk</li>
+                <li>Krämig sås</li>
+                <li>Krispsallat</li>
+                <li>Kan innehålla spår av gluten</li>
+            </ul>
+            </div>
+            <div style="display: inline-block">
+                <h4>Semmelburgaren</h4>
+                <img src="https://www.livetsgoda.se/wp-content/uploads/2023/02/Burger-king.jpg" alt="Semmelburgaren" title="Semmelburgaren" style="width: 300px">
+                <ul>
+                    <li>Semmelbulle</li>
+                    <li>Grädde</li>
+                    <li>Mandelmassa</li>
+                    <li>Brownie</li>
+                </ul>
+            </div>
+            <div style="display: inline-block">
+                <h4>Wagyuburgare</h4>
+                <img src="https://i.redd.it/2d0iy7uc6ihd1.jpeg" alt="Wagyuburgare" title="Wagyuburgare" style="width: 280px">
+                <ul>
+                    <li>Svarttryffel</li>
+                    <li>Exklusiv wagyufärs</li>
+                    <li>Secreto iberico</li>
+                    <li>Rysk belugakaviar</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h3>Kundinformation</h3>
+            <p>För att kunna leverera booorgir till dig så behöver vi följande information</p>
+            <h4>Leveransinformation:</h4>
+            <form>
+                <p>
+                    <label for="name">Full name</label><br>
+                    <input type="text" id="name" name="fn" required="required" placeholder="First- and last name">
+                </p>
+                <p>
+                    <label for="email">E-mail</label><br>
+                    <input type="email" id="email" name="em" required="required" placeholder="E-mail adress">
+                </p>
+                <p>
+                    <label for="street">Street</label><br>
+                    <input type="text" id="street" name="st" required="required" placeholder="Street name">
+                </p>
+                <p>
+                    <label for="housenumber">House</label><br>
+                    <input type="number" id="housenumber" name="hn" required="required" placeholder="House number">
+                </p>
+                <p>
+                <label for="payment">Payment Info</label><br>
+                <select id="payment" name="pi">
+                    <option>Visa</option>
+                    <option>MasterCard</option>
+                    <option>American Express</option>
+                    <option>Swish</option>
+                    <option>Klarna</option>
+                </select>
+                </p>
+                <p>
+                    <label for="gender">Gender</label><br>
+                        <input type="radio" id="male" name="gen" value="male" checked="checked">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gen" value="female">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gen" value="other">
+                        <label for="other">Other</label><br>                    
+                </p>
+
+            </form>
+        </section>
+        <button type="submit">
+            <img src="https://thumbs.dreamstime.com/b/italian-chef-smiling-pizza-hand-51938716.jpg" alt="Chef" title="Chef" style="width: 20px">
+            Lägg din beställning!
+          </button>
+    </main>
+    <hr>
+    <footer>
+        <h4>Kontaktinformation</h4>
+        <p>contact@booorgir.com</p>
+        <p>070-555-55-55</p>
+        <p>&copy; The Booorgir Corporation 2024</p>
+    </footer>
+        
+    </body>
+</html>
