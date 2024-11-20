@@ -1,50 +1,56 @@
 <!DOCTYPE HTML>
 <html lang="en">
    <head>
+    <link rel="stylesheet" type="text/css" href="/Users/nylun/Downloads/goodfolder/1MD031-lab-2024/public/css/style.css">
        <title>Booooorgir</title>
        <meta charset="utf-8"/>
    </head>
    <body>
-    <header>
-        <h1>Välkommen till BooorgirOnline!</h1>
-        <p>De bästa hamburgarna i staden!</p>
+    <header id="head">
+        <img src="https://as2.ftcdn.net/v2/jpg/02/58/69/81/1000_F_258698167_rPausS45PIUX71fDDXEYOHAO2WgGrhcZ.jpg" alt="headpic" title="Header pic" id="headpicture">
+        <h1 id="headtext" >Välkommen till BooorgirOnline!</h1>
+        <p id="headundertext">De bästa hamburgarna i staden!</p>
     </header>
     <main>
-        <section>
+        <section id="burgerchoice">
+            <div id="burgerchoicetext">
             <h3>Välj din booorgir!</h3>
             <p>Du kan välja mellan dessa tre alternativ:</p>
-            <div style="display: inline-block">
+            </div>
+            <div class="burgerwrapper">
+            <div style="display: inline-block" class="burger">
             <h4>The Nasty Patty</h4>
             <img src="https://i.ytimg.com/vi/e03PjaSc7VQ/maxresdefault.jpg" alt="Nasty Patty" title="The Nasty Patty" style="width: 300px">
             <ul>
                 <li>Vegansk</li>
                 <li>Krämig sås</li>
                 <li>Krispsallat</li>
-                <li>Kan innehålla spår av gluten</li>
+                <li class="allergenic">Kan innehålla spår av gluten</li>
             </ul>
             </div>
-            <div style="display: inline-block">
+            <div style="display: inline-block" class="burger">
                 <h4>Semmelburgaren</h4>
                 <img src="https://www.livetsgoda.se/wp-content/uploads/2023/02/Burger-king.jpg" alt="Semmelburgaren" title="Semmelburgaren" style="width: 300px">
                 <ul>
-                    <li>Semmelbulle</li>
                     <li>Grädde</li>
                     <li>Mandelmassa</li>
                     <li>Brownie</li>
+                    <li class="allergenic">Innehåller gluten och laktos</li>
                 </ul>
             </div>
-            <div style="display: inline-block">
+            <div style="display: inline-block" class="burger">
                 <h4>Wagyuburgare</h4>
                 <img src="https://i.redd.it/2d0iy7uc6ihd1.jpeg" alt="Wagyuburgare" title="Wagyuburgare" style="width: 280px">
                 <ul>
-                    <li>Svarttryffel</li>
                     <li>Exklusiv wagyufärs</li>
                     <li>Secreto iberico</li>
                     <li>Rysk belugakaviar</li>
+                    <li class="allergenic">Inneåller gluten och laktos</li>
                 </ul>
             </div>
+            </div>
         </section>
-        <section>
+        <section id="orderinfo">
             <h3>Kundinformation</h3>
             <p>För att kunna leverera booorgir till dig så behöver vi följande information</p>
             <h4>Leveransinformation:</h4>

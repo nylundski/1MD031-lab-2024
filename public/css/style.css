@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant:wght@700&display=swap');
 body {
-    font-size: 12pt;
+    font-size: 14pt;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 p {
-    color: red;
+    color: rgb(220, 138, 6);
 }
 
 h1 {
@@ -12,27 +13,20 @@ h1 {
     font-size: 36pt;
 }
 main, header, footer, nav ul {
-    max-width: 40rem;
+    
     margin: 0 auto 0 auto;
 }
 main {
-    background-color: bisque;
+    background-color: white;
 }
 
-/* nav ul li {
-    display: inline-block;
-    background-color: grey;
-    padding: 1em;
-    margin: 1em;
-} */
-
 header {
-    background-image: url("../img/polacks.jpg");
+    position: relative;
     background-size: cover;
     overflow: hidden;
     width: 100%;
     height: 200px;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 header h1 {
@@ -61,4 +55,97 @@ nav li {
 .Master {
     color: green;
     font-weight: bold;
+}
+
+.allergenic {
+    font-weight: bold;
+}
+
+#burgerchoice {
+    background-color: #000;
+    color: #fff;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: #fff
+
+}
+
+#orderinfo {
+    background-color: antiquewhite;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: #ff0000
+
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: beige;
+    cursor: pointer;
+}
+
+section {
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.burgerwrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+}
+
+.burger {
+    margin: 30px;
+    padding: 20px;
+}
+
+#head {
+    margin: 0 auto;
+    border:#000;
+    border-width: 5px;
+    height: 15rem;
+    overflow: hidden;
+}
+
+#headpicture {
+    opacity: 0.6;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+#headtext {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 50px; 
+    font-family: 'Cormorant', serif; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    z-index: 10;
+
+}
+
+#headundertext {
+    position: absolute;
+    text-align: center;
+    z-index: 11;
+    top: 70%;
+    left: 37.5%;
+    color:#000;
+    font-size: 25px;
+
+}
+
+#burgerchoicetext {
+    text-align: center;
 }
