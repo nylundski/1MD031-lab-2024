@@ -1,21 +1,25 @@
+
 [{
-    "name": "Veggie Bliss", 
+    "name": "The Nasty Patty", 
     "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
+    "URL": "https://i.ytimg.com/vi/e03PjaSc7VQ/maxresdefault.jpg",
     "lactose": false, 
-    "gluten": false
+    "gluten": true,
+    "description": "Our most delicious vegan burger"
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "Semmel burger", 
+    "kCal": 450, 
+    "URL": "https://www.livetsgoda.se/wp-content/uploads/2023/02/Burger-king.jpg",
+    "lactose": true, 
+    "gluten": true,
+    "description": "Frankly the best dessert, maybe of all time, that's what they say"
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "Wagyu burger", 
+    "kCal": 600, 
+    "URL": "https://i.redd.it/2d0iy7uc6ihd1.jpeg",
+    "lactose": true, 
+    "gluten": true,
+    "description": "Our most luxurious burger"
 }]
